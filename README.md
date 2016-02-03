@@ -8,3 +8,7 @@ with error: void value not ignored as it ought to be
 This was due to unregister_chrdev being changed to type void in later kernels. 
 Changed to void type in the example and it now compiles properly.
 Full corrected example is listed here.
+
+
+
+Caution: this file contains a Linux kernel mod. Kernel mods can result in catastrophic consequences if not implemented properly. Procced with extreme caution.
